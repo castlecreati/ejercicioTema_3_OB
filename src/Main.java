@@ -13,4 +13,9 @@ public class Main {
         return a+b+c;
     }
 }
-
+class Coche {
+    public static int nPuertas = 0;
+    public static void incrementarPuertas(){
+        nPuertas++;
+    }
+}
